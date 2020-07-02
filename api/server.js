@@ -10,6 +10,7 @@ const server = express();
       server.use(cors());
 
 server.get('/', (req, res) => {
+  res.status(200);
   res.send(`
       <h2>Welcome to the server!</h2>
     `);
