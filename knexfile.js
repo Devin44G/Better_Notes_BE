@@ -15,10 +15,10 @@ module.exports = {
       },
     },
     migrations: {
-      directory: './db/migrations'
+      directory: './database/migrations'
     },
     seeds: {
-      directory: './db/seeds'
+      directory: './database/seeds'
     },
   },
 
@@ -34,10 +34,10 @@ module.exports = {
       },
     },
     migrations: {
-      directory: './db/migrations'
+      directory: './database/migrations'
     },
     seeds: {
-      directory: './db/seeds'
+      directory: './database/seeds'
     },
   },
 
@@ -49,7 +49,7 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: './db/migrations'
+      directory: './database/migrations'
     }
   }
 
